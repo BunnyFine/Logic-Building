@@ -15,13 +15,13 @@ public class _5 {
     
     public static void main(String[] args) {
            Scanner sc = new Scanner(System.in);
-        String str = null;
+        String a = null;
         String[] arr;
         int count = 0;
         if(sc.hasNextLine())
         {
-            str = sc.nextLine();
-            arr = str.split(" ");
+            a = sc.nextLine();
+            arr = a.split(" ");
             count = arr.length;
         }
         System.out.println("Number of words are: " + count);
